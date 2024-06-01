@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head> 
+   <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <title>SMKN 1 Gunung Putri</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+ </head>
+ <body>
+     <section class="sub-header">
+       <nav>
+         <a href="Index.html"><img src="Images/logosmk1.png"></a>
+         <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+             <li><a href="./Index.html">HOME</a></li>
+             <li><a href="./about.html">ABOUT</a></li>
+             <li><a href="./course.html">COURSE</a></li>
+             <li><a href="./Blog.html">BLOG</a></li>
+             <li><a href="./contact.html">CONTACT</a></li>
+             <li><a href="./login.html">LOGIN</a></li>
+           </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>Program Keahlian</h1>
+</section>
+<!------ Course----->
+
+<section class="course">
+  <h1>Program Keahlian</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+  <div class="row">
+    <div class="course-col">
+      <h3>Rekayasa Perangkat Lunak</h3>
+      <p>"Rekayasa Perangkat Lunak adalah satu bidang profesi yang mendalami cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak dan manajemen kualitas."</p>
+    </div>
+    <div class="course-col">
+      <h3>Kimia Industri</h3>
+      <p>"Kimia industri adalah cabang ilmu kimia yang menerapkan pengetahuan kimiawi terhadap produksi material dan zat kimia khusus dengan sedikit dampak buruk pada lingkungan."
+        "</p>
+    </div>
+    <div class="course-col">
+      <h3>Pengelasan</h3>
+      <p>"Teknik pengelasan merupakan salah satu jurusan yang berada di bidang permesinan. ... Lulusan Teknik Pengelasan ini sangat dibutuhkan oleh industri. Sebab tidak sedikit industri yang mampu mensiagakan para pekerja di bidang listrik untuk menjaga kecakapan mesin-mesin yang ada di perusahaan."</p>
+    </div>
+    </div>
+
+</section>
+
+<!-----Facilities----->
+<section class="facilities">
+  <h1>Fasilitas Sekolah</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<div class="row">
+  <div class="facilities-col">
+    <img src="Images/library.png">
+    <h3>Perpustakaan</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+  <div class="facilities-col">
+    <img src="Images/basketball.png">
+    <h3>Lapangan</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+  <div class="facilities-col">
+    <img src="Images/cafeteria.png">
+    <h3>Kantin</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+</div>
+
+
+</section>
+
+
+
+<!-----Footer----->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i>by Ilyas</p>
+</section>
+
+
+
+
+
+<!------JavaScript for Toggle Menu----->
+<script>
+
+   var navLinks = document.getElementById("navLinks");
+
+   function showMenu(){
+    navLinks.style.right = "0";
+   }
+   function hideMenu(){
+    navLinks.style.right = "-200px";
+   }
+
+</script>
+
+
+ </body>
+ </html>
